@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.perfectdiary.messager;
+
+option java_multiple_files = true;
+option java_outer_classname = "HeartBeatMessage";
+option java_package = "com.perfectdiary.common.http.protocol.request";
+
+//心跳 proto
+message HeartBeat {
+
+    bool ping = 1;
+
+}

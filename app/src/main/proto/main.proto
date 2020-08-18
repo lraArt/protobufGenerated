@@ -1,0 +1,22 @@
+syntax = "proto2";
+
+package com.tencent.mars.sample.proto;
+
+option java_multiple_files = true;
+option java_outer_classname = "ProtoKey";
+option java_package = "com.perfectdiary.common.http.protocol";
+
+enum CmdID {
+
+  CMD_ID_UNKNOWN = 0;
+  CMD_ID_HELLO = 1;
+  CMD_ID_AUTH = 2;
+  CMD_ID_HEARTBEAT = 3;
+  CMD_ID_CONVERSATION_LIST = 4;
+  CMD_ID_JOINTOPIC = 5;
+  CMD_ID_LEFTTOPIC = 7;
+  CMD_ID_HELLO2 = 8;
+
+}
+
+
